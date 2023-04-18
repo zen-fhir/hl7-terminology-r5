@@ -1,0 +1,9 @@
+{ns hl7-terminology-r5.value-set.v3-ActRelationshipAccounting,
+ import #{zen.fhir},
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "Codes that describe the relationship between an Act and a financial instrument such as a financial transaction, account or invoice element.",
+            :zen.fhir/version "0.6.21-2",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/v3-ActRelationshipAccounting",
+            :version "2.0.0"}}

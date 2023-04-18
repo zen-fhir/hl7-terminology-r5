@@ -1,0 +1,26 @@
+{ns hl7-terminology-r5.value-set.action-participant-role,
+ import #{zen.fhir},
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "Either a practitioner role or a relationship type.  Note from UTG import - may have been a temporary entry that subsequently disappeared from the FHIR source; unable to locate.   Version set to 0.1.0",
+            :zen.fhir/version "0.6.21-2",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+                                  :zen.fhir/content :bundled}
+                                 {:fhir/url "http://terminology.hl7.org/CodeSystem/practitioner-role",
+                                  :zen.fhir/content :bundled}
+                                 {:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                  :zen.fhir/content :bundled}
+                                 {:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                                  :zen.fhir/content :bundled}
+                                 {:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                  :zen.fhir/content :bundled}
+                                 {:fhir/url "http://snomed.info/sct",
+                                  :zen.fhir/content :not-present}},
+            :uri "http://terminology.hl7.org/ValueSet/action-participant-role",
+            :version "0.1.0",
+            :ftr {:module "hl7-terminology-r5",
+                  :source-url "https://storage.googleapis.com",
+                  :source-type :cloud-storage,
+                  :ftr-path "ftr",
+                  :tag "init",
+                  :validation-index {:type :nippy,
+                                     :file "index.nippy"}}}}

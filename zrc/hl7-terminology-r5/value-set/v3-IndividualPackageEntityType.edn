@@ -1,0 +1,9 @@
+{ns hl7-terminology-r5.value-set.v3-IndividualPackageEntityType,
+ import #{zen.fhir},
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "Container intended to contain sufficient material for only one use.",
+            :zen.fhir/version "0.6.21-2",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/v3-IndividualPackageEntityType",
+            :version "2.0.0"}}

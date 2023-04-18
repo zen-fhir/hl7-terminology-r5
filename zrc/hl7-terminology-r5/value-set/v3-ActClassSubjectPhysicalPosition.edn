@@ -1,0 +1,9 @@
+{ns hl7-terminology-r5.value-set.v3-ActClassSubjectPhysicalPosition,
+ import #{zen.fhir},
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "The spatial relationship of a subject whether human, other animal, or plant, to a frame of reference such as gravity or a collection device.",
+            :zen.fhir/version "0.6.21-2",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/v3-ActClassSubjectPhysicalPosition",
+            :version "2.0.0"}}

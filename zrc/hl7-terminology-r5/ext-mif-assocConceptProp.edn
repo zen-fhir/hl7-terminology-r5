@@ -1,0 +1,12 @@
+{ns hl7-terminology-r5.ext-mif-assocConceptProp,
+ import #{zen.fhir hl7-fhir-r5-core.string},
+ schema {:zen.fhir/version "0.6.21-2",
+         :zen/tags #{zen/schema zen.fhir/structure-schema},
+         :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-mif-assocConceptProp",
+         :require #{:name :value},
+         :type zen/map,
+         :zen/desc "Concept Properties that are associated with this Code System or Value Set Version",
+         :keys {:name {:confirms #{hl7-fhir-r5-core.string/schema},
+                       :zen/desc "Property name"},
+                :value {:confirms #{hl7-fhir-r5-core.string/schema},
+                        :zen/desc "Property value"}}}}

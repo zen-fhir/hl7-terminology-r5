@@ -1,0 +1,20 @@
+{ns hl7-terminology-r5.value-set.v3-EntityCode,
+ import #{zen.fhir},
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "A value representing the specific kind of Entity the instance represents.\r\n\r\n*Examples:* A medical building, a Doberman Pinscher, a blood collection tube, a tissue biopsy.\r\n\r\n*Rationale:* For each Entity, the value for this attribute is drawn from one of several coding systems depending on the Entity classCode, such as living subjects (animal and plant taxonomies), chemical substance (e.g., IUPAC code), organizations, insurance company, government agency, hospital, park, lake, syringe, etc. It is possible that Entity.code may be so fine grained that it represents a single instance. An example is the CDC vaccine manufacturer code, modeled as a concept vocabulary, when in fact each concept refers to a single instance.",
+            :zen.fhir/version "0.6.21-2",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-SpecimenType",
+                                  :zen.fhir/content :bundled}
+                                 {:fhir/url "urn:iso:std:iso:3166",
+                                  :zen.fhir/content :not-present}
+                                 {:fhir/url "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/v3-EntityCode",
+            :version "2.0.0",
+            :ftr {:module "hl7-terminology-r5",
+                  :source-url "https://storage.googleapis.com",
+                  :source-type :cloud-storage,
+                  :ftr-path "ftr",
+                  :tag "init",
+                  :validation-index {:type :nippy,
+                                     :file "index.nippy"}}}}

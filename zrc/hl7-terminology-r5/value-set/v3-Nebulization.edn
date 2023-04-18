@@ -1,0 +1,9 @@
+{ns hl7-terminology-r5.value-set.v3-Nebulization,
+ import #{zen.fhir},
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "Nebulization",
+            :zen.fhir/version "0.6.21-2",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/v3-Nebulization",
+            :version "2.0.0"}}

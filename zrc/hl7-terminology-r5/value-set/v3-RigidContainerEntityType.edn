@@ -1,0 +1,9 @@
+{ns hl7-terminology-r5.value-set.v3-RigidContainerEntityType,
+ import #{zen.fhir},
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "A container having a fixed and inflexible dimensions and volume",
+            :zen.fhir/version "0.6.21-2",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/v3-RigidContainerEntityType",
+            :version "2.0.0"}}
