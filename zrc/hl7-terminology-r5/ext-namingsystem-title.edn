@@ -4,5 +4,5 @@
          :zen/desc "The human-readable descriptive name for the code or identifier system",
          :zen.fhir/type "string",
          :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-namingsystem-title",
-         :zen.fhir/version "0.6.21-2",
+         :zen.fhir/version "0.6.22",
          :confirms #{hl7-fhir-r5-core.string/schema}}}

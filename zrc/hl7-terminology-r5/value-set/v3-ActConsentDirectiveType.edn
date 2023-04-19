@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "ActConsentDirective and ActConsentType codes are used to specify the type of Consent Directive or Consent Type to which, for example, a Consent Act conforms, to which a Security Observation (Security Label) refers to, or to which a Privacy or Security Act refers.\r\n\r\n>\r\n\r\n*Steward:* Security WG",
-            :zen.fhir/version "0.6.21-2",
+            :zen.fhir/version "0.6.22",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActCode",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActConsentDirectiveType",

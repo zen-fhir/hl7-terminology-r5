@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Broad category for individuals who complete additional training and education in the area of pre-hospital emergency services and are licensed and/or practice within the scope of that training.",
-            :zen.fhir/version "0.6.21-2",
+            :zen.fhir/version "0.6.22",
             :fhir/code-systems #{{:fhir/url "http://nucc.org/provider-taxonomy",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-EmergencyMedicalServiceProviderHIPAA",
