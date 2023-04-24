@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Testing to measure the minimum concentration of the antibacterial agent in a given culture medium below which bacterial growth is not inhibited.",
-            :zen.fhir/version "0.6.22",
+            :zen.fhir/version "0.6.22-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-tst0272",

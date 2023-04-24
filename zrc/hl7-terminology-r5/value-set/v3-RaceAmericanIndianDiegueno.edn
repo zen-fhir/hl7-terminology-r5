@@ -1,7 +1,7 @@
 {ns hl7-terminology-r5.value-set.v3-RaceAmericanIndianDiegueno,
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
-            :zen.fhir/version "0.6.22",
+            :zen.fhir/version "0.6.22-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-Race",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-RaceAmericanIndianDiegueno",

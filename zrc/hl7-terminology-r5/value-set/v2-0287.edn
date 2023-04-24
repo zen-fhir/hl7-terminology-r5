@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts used in Patient Care for the intent of a problem or goal.  Used in Version 2 messaging in the GOL segment.",
-            :zen.fhir/version "0.6.22",
+            :zen.fhir/version "0.6.22-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0287",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0287",

@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "An action taken with respect to a subject Entity by a regulatory or authoritative body with supervisory capacity over that entity. The action is taken in response to behavior by the subject Entity that body finds to be undesirable.\r\n\r\nSuspension, license restrictions, monetary fine, letter of reprimand, mandated training, mandated supervision, etc.*Examples:*",
-            :zen.fhir/version "0.6.22",
+            :zen.fhir/version "0.6.22-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleLinkType",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-RoleLinkRelated",

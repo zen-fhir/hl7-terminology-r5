@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts defining precise response status concepts in support of HL7 Version 2 query messaging.",
-            :zen.fhir/version "0.6.22",
+            :zen.fhir/version "0.6.22-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0208",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0208",

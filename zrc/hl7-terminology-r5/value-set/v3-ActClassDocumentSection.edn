@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "A context that subdivides the body of a document. Document sections are typically used for human navigation, to give a reader a clue as to the expected content. Document sections are used to organize and provide consistency to the contents of a document body. Document sections can contain document sections and can contain entries.",
-            :zen.fhir/version "0.6.22",
+            :zen.fhir/version "0.6.22-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActClassDocumentSection",
