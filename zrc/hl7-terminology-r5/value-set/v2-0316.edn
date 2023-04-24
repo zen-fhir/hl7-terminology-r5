@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Value Set of codes that specify whether the patient wants to donate his/her organs and whether an organ donor card or similar documentation is on file with the healthcare organization.",
-            :zen.fhir/version "0.6.22-1",
+            :zen.fhir/version "0.6.22-2",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0316",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0316",

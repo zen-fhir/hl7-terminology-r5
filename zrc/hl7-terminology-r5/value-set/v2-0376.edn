@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts describing how a specimen and/or container needs to be handled from the time of collection through the initiation of testing.  Used in Version 2 messaging in the SPM segment.",
-            :zen.fhir/version "0.6.22-1",
+            :zen.fhir/version "0.6.22-2",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0376",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0376",

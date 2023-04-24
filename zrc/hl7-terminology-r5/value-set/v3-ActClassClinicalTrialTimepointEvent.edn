@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "An identified point during a clinical trial at which one or more actions are scheduled to be performed (definition mood), or are actually performed (event mood). The actions may or may not involve an encounter between the subject and a healthcare professional.",
-            :zen.fhir/version "0.6.22-1",
+            :zen.fhir/version "0.6.22-2",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActClassClinicalTrialTimepointEvent",

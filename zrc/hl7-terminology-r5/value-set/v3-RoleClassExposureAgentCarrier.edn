@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "An exposure agent carrier is an entity that is capable of conveying an exposure agent from one entity to another. The scoper of the role must be the exposure agent (e.g., pathogen).",
-            :zen.fhir/version "0.6.22-1",
+            :zen.fhir/version "0.6.22-2",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-RoleClassExposureAgentCarrier",

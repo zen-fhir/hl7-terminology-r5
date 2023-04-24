@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "An assertion that a new observation was assumed to be the cause for another existing observation. The assumption is attributed to the same actor who asserts the observation. This is stronger and more specific than the support link. For example, a growth of Staphylococcus aureus may be considered the cause of an abscess. The source (cause) is typically an observation, but may be any service, while the target must be an observation.",
-            :zen.fhir/version "0.6.22-1",
+            :zen.fhir/version "0.6.22-2",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActRelationshipIsEtiologyFor",

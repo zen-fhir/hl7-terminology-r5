@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "SNOMED International Global Patient Set (GPS) value set.    The value set includes all of the codes from the SNOMED International Global Patient Set (GPS)    subset of SNOMED CT.  The current version of the value set contains all concepts (26,158) from    the September 2020 release of the GPS (based on the July 2020 SNOMED CT International Edition    release).   \n\n   This value set is provided as a FHIR ValueSet resource instance for the convenience of implementers.",
-            :zen.fhir/version "0.6.22-1",
+            :zen.fhir/version "0.6.22-2",
             :fhir/code-systems #{{:fhir/url "http://snomed.info/sct",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/snomed-intl-gps",
