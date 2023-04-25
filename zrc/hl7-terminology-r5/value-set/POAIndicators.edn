@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts that describe whether a condition is present when a patient is admitted to a healthcare facility. ",
-            :zen.fhir/version "0.6.23",
+            :zen.fhir/version "0.6.23-1",
             :fhir/code-systems #{{:fhir/url "https://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/HospitalAcqCond/Coding",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/POAIndicators",

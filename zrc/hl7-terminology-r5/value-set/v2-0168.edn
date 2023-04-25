@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Value Set of codes that specify one or more available priorities for performing the observation or test.",
-            :zen.fhir/version "0.6.23",
+            :zen.fhir/version "0.6.23-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0168",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0168",

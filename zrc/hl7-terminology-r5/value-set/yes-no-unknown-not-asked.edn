@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "This value set contains 4 concepts commonly used as answers to items in a questionnaire.",
-            :zen.fhir/version "0.6.23",
+            :zen.fhir/version "0.6.23-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0532",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/yes-no-unknown-not-asked",

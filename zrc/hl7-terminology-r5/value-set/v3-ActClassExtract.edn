@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "This context represents the part of a patient record conveyed in a single communication. It is drawn from a providing system for the purposes of communication to a requesting process (which might be another repository, a client application or a middleware service such as an electronic guideline engine), and supporting the faithful inclusion of the communicated data in the receiving system.\r\n\r\nAn extract may be the entirety of the patient record as held by the sender or it may be a part of that record (e.g. changes since a specified date).\r\n\r\nAn extract contains folders or compositions.\r\n\r\nAn extract cannot contain another extract.",
-            :zen.fhir/version "0.6.23",
+            :zen.fhir/version "0.6.23-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActClassExtract",

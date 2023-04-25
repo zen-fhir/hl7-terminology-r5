@@ -6,7 +6,7 @@
          :zen/desc "Indicates if the relationship always holds in the reverse direction as well (symetric), never holds in the reverse direction as well (antisymetric)",
          :zen.fhir/type "code",
          :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-symmetry",
-         :zen.fhir/version "0.6.23",
+         :zen.fhir/version "0.6.23-1",
          :confirms #{hl7-fhir-r5-core.code/schema},
          :zen.fhir/value-set {:symbol hl7-terminology-r5.value-set.mif-conceptRelationshipSymmetry/value-set,
                               :strength :required}}}

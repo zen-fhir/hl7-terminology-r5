@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "A material target that is brought forth (produced) in the service (e.g., specimen in a specimen collection, access or drainage in a placement service, medication package in a dispense service). It doesn't matter whether the material produced had existence prior to the service, or whether it is created in the service (e.g., in supply services the product is taken from a stock).",
-            :zen.fhir/version "0.6.23",
+            :zen.fhir/version "0.6.23-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ParticipationProduct",

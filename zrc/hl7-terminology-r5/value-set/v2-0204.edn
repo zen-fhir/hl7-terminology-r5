@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts used to specify the type of name for an organization i.e., legal name, display name.",
-            :zen.fhir/version "0.6.23",
+            :zen.fhir/version "0.6.23-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0204",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0204",

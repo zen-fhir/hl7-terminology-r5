@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Status codes specifying a patient's or a patient's representative's consent for responsibility to pay for potentially uninsured services.  Note that this set of codes is generally used in the US only.",
-            :zen.fhir/version "0.6.23",
+            :zen.fhir/version "0.6.23-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0339",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0339",

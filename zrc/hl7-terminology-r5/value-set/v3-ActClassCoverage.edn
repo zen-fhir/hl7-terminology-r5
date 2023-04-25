@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "When used in the EVN mood, this concept means with respect to a covered party:\r\n\r\n1.  A health care insurance policy or plan that is contractually binding between two or more parties; or\r\n2.  A health care program, usually administered by government entities, that provides coverage to persons determined eligible under the terms of the program.\r\n\r\n *  When used in the definition (DEF) mood, COV means potential coverage for a patient who may or may not be a covered party.\r\n *  The concept's meaning is fully specified by the choice of ActCoverageTypeCode (abstract) ActProgramCode or ActInsurancePolicyCode.",
-            :zen.fhir/version "0.6.23",
+            :zen.fhir/version "0.6.23-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActClassCoverage",

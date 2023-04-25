@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Sender asks addressee to do something depending on the focal Act of the payload. An example is \"fulfill this order\". Addressee has responsibilities to either reject the message or to act on it in an appropriate way (specified by the specific receiver responsibilities for the interaction).",
-            :zen.fhir/version "0.6.23",
+            :zen.fhir/version "0.6.23-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActClassAction",
