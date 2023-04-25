@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "An individual who is licensed to prepare and sell or dispense drugs and compounds and to make up prescriptions.",
-            :zen.fhir/version "0.6.22-2",
+            :zen.fhir/version "0.6.23",
             :fhir/code-systems #{{:fhir/url "http://nucc.org/provider-taxonomy",
                                   :zen.fhir/content :not-present}},
             :uri "http://terminology.hl7.org/ValueSet/v3-PharmacistHIPAA",

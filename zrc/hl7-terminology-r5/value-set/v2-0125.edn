@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts which specify the data type of OBX-5, Observation Value, and are a subset of the datatypes defined in HL7 Version 2.x.",
-            :zen.fhir/version "0.6.22-2",
+            :zen.fhir/version "0.6.23",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0440",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0125",

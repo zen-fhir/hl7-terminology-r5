@@ -6,7 +6,7 @@
          :zen/desc "Indicates if the association always holds for a concept with itself (refexive), never holds for a concept with itself (irreflexive)",
          :zen.fhir/type "code",
          :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-reflexivity",
-         :zen.fhir/version "0.6.22-2",
+         :zen.fhir/version "0.6.23",
          :confirms #{hl7-fhir-r5-core.code/schema},
          :zen.fhir/value-set {:symbol hl7-terminology-r5.value-set.mif-conceptRelationshipReflexivity/value-set,
                               :strength :required}}}

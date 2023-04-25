@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Security observation values used to indicate security category metadata. V:SecurityCategoryObservationValue is the union of V:PrivacyPolicyType, V:ActPrivacyLaw, V:ActConsentDirective, V:InformationSensitivityPolicy, V:ActInformationSensitivityPolicy, V:RoleInformationSensitivityPolicy, V:EntityInformationSensitivityPolicy, and the V:ActConsentType value used to populate the SecurityCategoryObservationValue attribute in order to convey one or more nonhierarchical categories of sensitivity metadata, which are used to control access to data more finely than with hierarchical security classification alone. Could be bound R1 to a V:ActUSPrivacyPolicy in a future US Realm.",
-            :zen.fhir/version "0.6.22-2",
+            :zen.fhir/version "0.6.23",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActCode",
                                   :zen.fhir/content :bundled}
                                  {:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",

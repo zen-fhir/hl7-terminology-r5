@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "A code distinguishing whether an Act is conceived of as a factual statement or in some other manner as a command, possibility, goal, etc.\r\n\r\n*Constraints:* An Act-instance must have one and only one moodCode value.\r\n\r\nThe moodCode of a single Act-instance never changes. Mood is not state.\r\n\r\nTo describe the progression of a business activity from defined to planned to executed, etc. one must instantiate different Act-instances in the different moods and link them using ActRelationship of general type \"sequel\". (See ActRelationship.type.)",
-            :zen.fhir/version "0.6.22-2",
+            :zen.fhir/version "0.6.23",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActMood",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActMood",
