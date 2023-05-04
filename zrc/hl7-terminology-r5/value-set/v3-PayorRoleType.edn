@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "**Description:**PayorRoleType for a particular type of policy or program benefit package or plan where more detail about the coverage administration role of the Payor is required. The functions performed by a Payor qualified by a PayorRoleType may be specified by the PayorParticpationFunction value set.\r\n\r\n**Examples:**A Payor that is a TPA may administer a managed care plan without underwriting the risk.",
-            :zen.fhir/version "0.6.23-1",
+            :zen.fhir/version "0.6.24",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-PayorRoleType",

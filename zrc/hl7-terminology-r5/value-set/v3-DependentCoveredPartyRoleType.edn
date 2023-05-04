@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "**Description:** A role recognized through the eligibility of a party to play a dependent for benefits covered or provided under a health insurance policy because of an association with the subscriber that is recognized by the policy underwriter.",
-            :zen.fhir/version "0.6.23-1",
+            :zen.fhir/version "0.6.24",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-DependentCoveredPartyRoleType",

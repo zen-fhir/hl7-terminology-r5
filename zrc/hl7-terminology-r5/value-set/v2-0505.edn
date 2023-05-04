@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Value Set of codes that specify if this service request is the first or last service request in a cyclic series of service requests.",
-            :zen.fhir/version "0.6.23-1",
+            :zen.fhir/version "0.6.24",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0505",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0505",

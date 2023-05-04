@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "An entity that subsumes the identity of another. Used in the context of merging documented entity instances. Both the player and scoper must have the same classCode.\r\n\r\nThe use of this code is **deprecated** in favor of the term SUBY which is its inverse and is more ontologically correct.",
-            :zen.fhir/version "0.6.23-1",
+            :zen.fhir/version "0.6.24",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-RoleClassSubsumer",
