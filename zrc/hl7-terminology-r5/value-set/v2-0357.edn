@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "HL7 (communications) error codes, as transmitted in a message acknowledgement.",
-            :zen.fhir/version "0.6.24",
+            :zen.fhir/version "0.6.25-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0357",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0357",

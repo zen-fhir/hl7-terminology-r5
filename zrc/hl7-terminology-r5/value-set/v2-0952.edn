@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts drawn from the HL7 V3 Confidentiality code system .\r\nUsed in Version 2 messaging in the Security Classification elements  in the Message Header segment (MSH) and the Access Restrictions segment (ARV).",
-            :zen.fhir/version "0.6.24",
+            :zen.fhir/version "0.6.25-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0952",

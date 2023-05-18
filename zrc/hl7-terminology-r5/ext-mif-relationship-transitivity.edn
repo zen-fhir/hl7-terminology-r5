@@ -6,7 +6,7 @@
          :zen/desc "Indicates whether the relationship always (transitive) or never (antitransitive) propagates such that if the association exists from A to B and from B to C that the relationship can be inferred to exist from A to C",
          :zen.fhir/type "code",
          :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-transitivity",
-         :zen.fhir/version "0.6.24",
+         :zen.fhir/version "0.6.25-1",
          :confirms #{hl7-fhir-r5-core.code/schema},
          :zen.fhir/value-set {:symbol hl7-terminology-r5.value-set.mif-conceptRelationshipTransitivity/value-set,
                               :strength :required}}}

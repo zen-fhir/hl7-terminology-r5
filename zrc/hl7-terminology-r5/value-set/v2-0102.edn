@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts which specify a response type used in deferred processing two phase reply for delayed acknowldgement mode of the original acknowledgement mechanism defined in HL7 Version 2.x messaging.",
-            :zen.fhir/version "0.6.24",
+            :zen.fhir/version "0.6.25-1",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0102",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0102",
