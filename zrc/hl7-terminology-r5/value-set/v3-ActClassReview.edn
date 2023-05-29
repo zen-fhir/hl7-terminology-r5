@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "The act of examining and evaluating the subject, usually another act. For example, \"This prescription needs to be reviewed in 2 months.\"",
-            :zen.fhir/version "0.6.25-1",
+            :zen.fhir/version "0.6.27",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActClassReview",

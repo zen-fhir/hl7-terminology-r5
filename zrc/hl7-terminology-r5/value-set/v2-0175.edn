@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts which are represented by codes identifying HL7Versions 2.x Master Files.",
-            :zen.fhir/version "0.6.25-1",
+            :zen.fhir/version "0.6.27",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0175",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0175",

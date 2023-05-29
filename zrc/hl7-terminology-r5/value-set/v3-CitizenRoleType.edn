@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "A role type used to qualify a person's legal status within a country or nation.\r\n\r\n**Examples:**\r\n\r\n *  Full citizen\r\n *  Asylum seeker\r\n *  Permit card holder",
-            :zen.fhir/version "0.6.25-1",
+            :zen.fhir/version "0.6.27",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-CitizenRoleType",

@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "A desired state that a service action aims to maintain. E.g., keep systolic blood pressure between 90 and 110 mm Hg. Source is an intervention service. Target must be an observation in criterion mood.",
-            :zen.fhir/version "0.6.25-1",
+            :zen.fhir/version "0.6.27",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActRelationshipHasContinuingObjective",

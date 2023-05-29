@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "A group of entries within a composition, topic or category that have a logical association with one another.\r\n\r\nThe representation of a single observation or action might itself be multi-part. The data might need to be represented as a nested set of values, as a table, list, or as a time series. The Cluster class permits such aggregation within an entry for such compound data.\r\n\r\nExamples include \"Haematology investigations\" which might include two or more distinct batteries.\r\n\r\nA cluster may contain batteries and/or individual entries",
-            :zen.fhir/version "0.6.25-1",
+            :zen.fhir/version "0.6.27",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActClassCluster",
