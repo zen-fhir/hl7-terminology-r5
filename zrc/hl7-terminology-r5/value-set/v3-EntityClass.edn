@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Classifies the Entity class and all of its subclasses. The terminology is hierarchical. At the top is this HL7-defined domain of high-level categories (such as represented by the Entity subclasses). Each of these terms must be harmonized and is specializable.\r\n\r\nThe value sets beneath are encoded in Entity.code and are drawn from multiple, frequently external, domains that reflect much more fine-grained typing.",
-            :zen.fhir/version "0.6.27",
+            :zen.fhir/version "0.6.28",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-EntityClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-EntityClass",

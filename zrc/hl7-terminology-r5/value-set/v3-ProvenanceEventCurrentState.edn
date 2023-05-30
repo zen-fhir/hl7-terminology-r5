@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Specifies the state change of a target Act, such as a document or an entry, from its previous state as a predecessor Act.\r\n\r\nFor example, if the target Act is the result of a predecessor Act being \"obsoleted\" and replaced with the target Act, the source ProvenanceEventCurrentState Act code would be \"obsoleted\".",
-            :zen.fhir/version "0.6.27",
+            :zen.fhir/version "0.6.28",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActCode",
                                   :zen.fhir/content :bundled}
                                  {:fhir/url "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",

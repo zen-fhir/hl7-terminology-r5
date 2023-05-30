@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Used to group a set of acts sharing a common context. Container structures can nest within other context structures - such as where a document is contained within a folder, or a folder is contained within an EHR extract.\r\n\r\n**Open issue:**  There is a clear conflict between this act and the use of the more general \"component\" ActRelationship. The question that must be resolved is what should be the class code of the parent (or containing) Act.",
-            :zen.fhir/version "0.6.27",
+            :zen.fhir/version "0.6.28",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActClassContainer",

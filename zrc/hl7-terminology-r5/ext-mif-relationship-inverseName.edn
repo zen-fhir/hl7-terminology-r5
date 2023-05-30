@@ -1,8 +1,10 @@
 {ns hl7-terminology-r5.ext-mif-relationship-inverseName,
  import #{zen.fhir hl7-fhir-r5-core.string},
- schema {:zen/tags #{zen/schema zen.fhir/structure-schema},
+ schema {:zen/tags #{zen.fhir/extension
+                     zen/schema
+                     zen.fhir/structure-schema},
          :zen/desc "Identifies the name of the relationship that references the inverse of the current relationship.  Allows linking a relationship and its derived inverse.",
          :zen.fhir/type "string",
          :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-inverseName",
-         :zen.fhir/version "0.6.27",
+         :zen.fhir/version "0.6.28",
          :confirms #{hl7-fhir-r5-core.string/schema}}}

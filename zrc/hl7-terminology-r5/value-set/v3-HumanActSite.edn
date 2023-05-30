@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "An anatomical location on a human which can be the focus of an act.\r\n\r\n*OpenIssue:* This value set was approved for **deletion** in November 2008, and was deleted at release \\#762. Subsequently, however, it was found that this deletion caused the legacy software embedded in the RMIM Designer in Visio to fail to show appropriate options for concepts in the subject area of this value set. For that reason, the value set was **re-added in releasse 813 and DEPRECATED from general use** at the same time. This value set should be deleted as soon as it is no longer required to support of the legacy software.",
-            :zen.fhir/version "0.6.27",
+            :zen.fhir/version "0.6.28",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActSite",
                                   :zen.fhir/content :bundled}
                                  {:fhir/url "http://terminology.hl7.org/CodeSystem/v3-Dentition",
