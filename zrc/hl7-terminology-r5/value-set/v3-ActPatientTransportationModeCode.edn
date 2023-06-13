@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Definition: Characterizes how a patient was or will be transported to the site of a patient encounter.\r\n\r\n*Examples:* Via ambulance, via public transit, on foot.",
-            :zen.fhir/version "0.6.28",
+            :zen.fhir/version "0.6.29",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActCode",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActPatientTransportationModeCode",

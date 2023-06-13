@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "The state that represents a suspension of the Entity playing the Role. This state is arrived at from the \"active\" state.",
-            :zen.fhir/version "0.6.28",
+            :zen.fhir/version "0.6.29",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleStatus",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-RoleStatusSuspended",

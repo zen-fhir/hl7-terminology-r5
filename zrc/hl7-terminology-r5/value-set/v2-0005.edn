@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "This race value set is based upon CDC check-digit codes, but using the HL7 table 0005. HL7 adopted the CDC Race and Ethnicity codes in HL7 Table 0005 in 2005. This value set has been created for backward compatibility and some historic Implementation guides (E.g. Immunization). Recommend using Race Category value set based upon CDC Race & Ethnicity code system.",
-            :zen.fhir/version "0.6.28",
+            :zen.fhir/version "0.6.29",
             :fhir/code-systems #{{:fhir/url "urn:oid:2.16.840.1.113883.6.238",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0005",

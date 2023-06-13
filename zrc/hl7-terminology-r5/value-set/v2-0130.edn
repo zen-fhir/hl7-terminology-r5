@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Value Set of codes that specify categories of a patient's visit with respect to an individual institution's needs, and is expected to be different on a site-specific basis.",
-            :zen.fhir/version "0.6.28",
+            :zen.fhir/version "0.6.29",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0130",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0130",
