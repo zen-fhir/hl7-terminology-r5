@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "This example value set defines a set of codes that can be used to indicate the status of the subject within the encounter",
-            :zen.fhir/version "0.6.29",
+            :zen.fhir/version "0.6.29-22",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/encounter-subject-status",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/encounter-subject-status",

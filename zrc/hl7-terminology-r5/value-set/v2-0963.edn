@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Codes used to identify medical devices safety characteristics. These codes are taken from the [NCI Thesaurus](https://ncit.nci.nih.gov/ncitbrowser/pages/home.jsf) and are provided here as a suggestive example.",
-            :zen.fhir/version "0.6.29",
+            :zen.fhir/version "0.6.29-22",
             :fhir/code-systems #{{:fhir/url "http://ncithesaurus-stage.nci.nih.gov",
                                   :zen.fhir/content :not-present}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0963",
