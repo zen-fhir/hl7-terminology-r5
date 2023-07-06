@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Used to capture the link between a potential service (\"master\" or plan) and an actual service, where the actual service instantiates the potential service. The instantiation may override the master's defaults.",
-            :zen.fhir/version "0.6.29-22",
+            :zen.fhir/version "0.6.29-4",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActRelationshipInstantiatesMaster",

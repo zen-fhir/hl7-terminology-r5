@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts used to specify a state or province.  Used in Version 2 messaging in the Extended Composite ID with Check Digit (CX), Performing Person Time Stamp (PPN), and Extended Composite ID Number and Name for Persons (XCN) values as well as the Accident (ACC) segment.",
-            :zen.fhir/version "0.6.29-22",
+            :zen.fhir/version "0.6.29-4",
             :fhir/code-systems #{{:fhir/url "urn:iso:std:iso:3166:-2",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-notAllCodes-0347",
