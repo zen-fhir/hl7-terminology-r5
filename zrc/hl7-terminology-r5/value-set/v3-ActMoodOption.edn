@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "An option is an alternative set of property-value bindings. Options specify alternative sets of values, typically used in definitions or orders to describe alternatives. An option can only be used as a group, that is, all assigned values must be used together.\r\n\r\nHistorical note: in HL7 v2.x option existed in the special case for alternative medication routes (RXR segment).",
-            :zen.fhir/version "0.6.29-4",
+            :zen.fhir/version "0.6.30",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActMood",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActMoodOption",

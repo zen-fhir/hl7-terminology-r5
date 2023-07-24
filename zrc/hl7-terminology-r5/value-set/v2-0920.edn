@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts that indicate whether a Specimen/Attribute is Preferred or Alternate for collection of a particular specimen.",
-            :zen.fhir/version "0.6.29-4",
+            :zen.fhir/version "0.6.30",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0920",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0920",

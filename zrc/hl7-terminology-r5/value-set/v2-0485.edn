@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts describing the urgency of a request carried in an order.  Used in Version 2 messaging in timing/quantity; in older versions of the Standard was used in the TQ datatype, but in later versions it is used in the TQ1 segment (which replaced the TQ datatype which has been withdrawn).  Many of the codes are widely recognized values used in healthcare settings in the english-speaking world.",
-            :zen.fhir/version "0.6.29-4",
+            :zen.fhir/version "0.6.30",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0485",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0485",
