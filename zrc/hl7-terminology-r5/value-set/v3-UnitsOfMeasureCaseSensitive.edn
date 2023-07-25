@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "**Description:** All units of measure.",
-            :zen.fhir/version "0.6.30",
+            :zen.fhir/version "0.6.30-1",
             :fhir/code-systems #{{:fhir/url "http://unitsofmeasure.org",
                                   :zen.fhir/content :not-present}},
             :uri "http://terminology.hl7.org/ValueSet/v3-UnitsOfMeasureCaseSensitive",
