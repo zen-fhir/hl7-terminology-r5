@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Used to indicate that the participation is a filtered subset of the total participations of the same type owned by the Act.\r\n\r\nUsed when there is a need to limit the participations to the first, the last, the next or some other filtered subset.",
-            :zen.fhir/version "0.6.30-1",
+            :zen.fhir/version "0.6.30-7",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipSubset",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ParticipationSubset",

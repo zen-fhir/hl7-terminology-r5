@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Observation values used to indicate a knowledge subtopic of interest for which knowledge content is requested (e.g., treatment, etiology, prognosis).",
-            :zen.fhir/version "0.6.30-1",
+            :zen.fhir/version "0.6.30-7",
             :fhir/code-systems #{{:fhir/url "https://www.nlm.nih.gov/mesh",
                                   :zen.fhir/content :bundled}
                                  {:fhir/url "http://snomed.info/sct",

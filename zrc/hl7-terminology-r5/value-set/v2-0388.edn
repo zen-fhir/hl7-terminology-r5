@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Value Set of codes identifying the processing type that applies to the test code.  If this attribute is omitted, then regular production is the default.",
-            :zen.fhir/version "0.6.30-1",
+            :zen.fhir/version "0.6.30-7",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0388",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0388",
