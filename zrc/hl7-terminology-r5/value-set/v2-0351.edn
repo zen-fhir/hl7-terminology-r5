@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Concepts drawn from the National Uniform Billing Committee (NUBC) code that identifies an event that relates to the payment of a claim.  Used in Version 2 messaging in the Occurrence Span Code and Date (OSP) value.",
-            :zen.fhir/version "0.6.30-7",
+            :zen.fhir/version "0.6.30-14",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0351",
                                   :zen.fhir/content :not-present}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0351",
