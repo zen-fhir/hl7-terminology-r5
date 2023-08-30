@@ -6,5 +6,5 @@
          :zen/desc "Identifies the name of the relationship that references the inverse of the current relationship.  Allows linking a relationship and its derived inverse.",
          :zen.fhir/type "string",
          :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-inverseName",
-         :zen.fhir/version "0.6.30-14",
+         :zen.fhir/version "0.6.31",
          :confirms #{hl7-fhir-r5-core.string/schema}}}

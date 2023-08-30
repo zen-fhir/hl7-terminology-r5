@@ -6,5 +6,5 @@
          :zen/desc "Indicates whether the relationship is intended to be navigated when selecting a code",
          :zen.fhir/type "boolean",
          :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-isNavigable",
-         :zen.fhir/version "0.6.30-14",
+         :zen.fhir/version "0.6.31",
          :confirms #{hl7-fhir-r5-core.boolean/schema}}}
