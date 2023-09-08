@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Identifies the type of verification investigation being undertaken with respect to the subject of the verification activity.\r\n\r\n**Examples:**\r\n\r\n1.  Verification of eligibility for coverage under a policy or program - aka enrolled/covered by a policy or program\r\n2.  Verification of record - e.g., person has record in an immunization registry\r\n3.  Verification of enumeration - e.g. NPI\r\n4.  Verification of Board Certification - provider specific\r\n5.  Verification of Certification - e.g. JAHCO, NCQA, URAC\r\n6.  Verification of Conformance - e.g. entity use with HIPAA, conformant to the CCHIT EHR system criteria\r\n7.  Verification of Provider Credentials\r\n8.  Verification of no adverse findings - e.g. on National Provider Data Bank, Health Integrity Protection Data Base (HIPDB)",
-            :zen.fhir/version "0.6.31",
+            :zen.fhir/version "0.6.32",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActCode",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ActObservationVerificationType",
