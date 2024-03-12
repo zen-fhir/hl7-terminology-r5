@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "This attribute defines whether the message is being sent in current processing, archive mode, initial load mode, restore from archive mode, etc.",
-            :zen.fhir/version "0.6.32",
+            :zen.fhir/version "0.6.42",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ProcessingMode",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-ProcessingMode",
